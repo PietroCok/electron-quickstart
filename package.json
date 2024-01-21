@@ -1,7 +1,7 @@
 {
-  "name": "test-electron",
-  "version": "0.0.1",
-  "description": "Test app",
+  "name": "electron-quickstart",
+  "version": "0.0.2",
+  "description": "Electron template",
   "main": "src/back-end/main.js",
   "scripts": {
     "start": "electron .",
