@@ -18,6 +18,9 @@
   "nodemonConfig": {
     "watch": [
       "*/back-end/"
+    ],
+    "ignore": [
+      
     ]
   }
 }
