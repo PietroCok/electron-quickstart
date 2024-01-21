@@ -6,7 +6,6 @@
 ### Commands to run project
 
 - **npm run start** 
-
   ----------
   classic way to run the project
   
