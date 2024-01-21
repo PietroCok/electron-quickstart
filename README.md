@@ -6,13 +6,11 @@
 ### Commands to run project
 
 - **npm run start** 
-
   ----------
   classic way to run the project
   
 
 - **npm run watch**
-  
   ----------
   Use nodemon to relaunch on node.js file changes.
   Folders/files can be configured with *package.json*
