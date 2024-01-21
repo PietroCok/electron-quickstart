@@ -15,7 +15,7 @@ const createWindow = () => {
         }
     })
 
-    win.loadFile('index.html')
+    win.loadFile('./src/front-end/index.html')
     win.webContents.openDevTools();
 }
 
@@ -38,13 +38,19 @@ app.on('ready', () => {
             }
         })
     })
-
 })
 
 // listening for window close
 app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') app.quit()
 })
+
+
+
+
+
+
+
 
 
 
