@@ -21,7 +21,7 @@ const createWindow = () => {
 
 // MUST wait ready event before creating window
 app.on('ready', () => {
-    ipcMain.handle('ping', () => 'pong');
+    ipcMain.handle('ping', () => 'pong_');
 
     createWindow();
 

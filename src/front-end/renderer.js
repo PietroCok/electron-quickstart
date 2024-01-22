@@ -5,5 +5,7 @@ const func = async () => {
 
 func();
 
+document.querySelector('button').onclick = func;
+
 
 
